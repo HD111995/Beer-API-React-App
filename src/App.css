@@ -1,0 +1,138 @@
+/* Normalize */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body */
+
+/* Home page Styling */
+.home {
+  width: 34vw;
+  margin: 3vh auto;
+  border: 1px solid #000;
+  background-color: rgb(88, 81, 81);
+}
+.beer {
+  width: 30vw;
+  margin: 10vh auto;
+  color: #fff;
+}
+.beer a {
+  text-decoration-line: none;
+}
+.beer img {
+  width: 30vw;
+  height: 50vh;
+}
+.beer h2 {
+  background-color: #ffca41;
+  color: #fff;
+  padding: 4px 20px;
+  text-decoration-line: none;
+}
+/* Home page End of Styling */
+/* Nav styling */
+.beer-list-container nav {
+  width: 46.5vw;
+  background-color: #ffca41;
+  text-align: center;
+  padding: 1vh 0;
+  position: fixed;
+  bottom: 0;
+}
+nav img {
+  width: 5vw;
+  height: 5vw;
+}
+/* Nav End of Styling */
+/* BeerList_Page Styling */
+.beer-list-container {
+  width: 46.5vw;
+  margin: 0 auto;
+}
+.beerlist {
+  width: 42vw;
+  margin: 2vh auto;
+  padding: 0 2vw;
+  border: 2px solid #000;
+}
+.beersection {
+  border-bottom: 2px solid #000;
+  padding: 4vh 0;
+  display: flex;
+  width: 40vw;
+  margin: 2vh auto;
+}
+.beersection img {
+  width: 10vw;
+  height: 48vh;
+}
+.beerkind {
+  width: 22vw;
+  padding: 4vh 3vw;
+}
+.beerkind div {
+  margin: 4vh 0;
+}
+.beerkind h3 {
+  color: #ffca41;
+}
+.beerkind h4 {
+  margin: 6vh 0;
+}
+.beerkind a {
+  text-decoration-line: none;
+  padding: 2px 20px;
+  background-color: #ffca41;
+  color: #fff;
+  border-radius: 12px;
+}
+/* BeerList_Page End of Styling */
+/* Styling beerItem (Details) */
+.details {
+  width: 40vw;
+  margin: 2vh auto;
+  border: 2px solid #000;
+}
+.item-container {
+  padding: 0 3vw;
+}
+.details nav {
+  background-color: #ffca41;
+  padding: 0.5px;
+}
+.details nav img {
+  width: 5vw;
+  height: 5vw;
+}
+.details img {
+  display: block;
+  width: 10vw;
+  height: 30vh;
+  margin: 3vh auto;
+}
+.details h3 {
+  color: #ffca41;
+}
+.details h5 {
+  color: #777265;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 14vw;
+}
+.details div div {
+  margin: 3vh 0;
+}
+.details h6 {
+  margin: 2vh 0;
+}
+.details div a {
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  margin-bottom: 4vh;
+  background: #ffca41 url("./Back.svg") center/cover no-repeat;
+}
